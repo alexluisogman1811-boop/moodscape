@@ -36187,7 +36187,7 @@ s=new A.axT()
 r=B.c.gaw(a.b.b.a)
 q=A.aF(l.h(0,"email"))
 if(q==null)q=""
-p=B.c.vN(B.qa,new A.axR(l),new A.axS())
+p=B.c.vN(B.q9,new A.axR(l),new A.axS())
 o=s.$1(l.h(0,"premiumUntil"))
 n=A.aF(l.h(0,"usageDate"))
 m=A.b93(l.h(0,"usageCount"))
@@ -134440,7 +134440,7 @@ H(){return"Plan."+this.b}}
 A.eC.prototype={
 pd(a){var s,r=this.c
 A:{if(B.dB===r){s=!1
-break A}if(B.j8===r){s=!0
+break A}if(B.j7===r){s=!0
 break A}s=this.d
 s=s!=null&&a.Kw(s)
 break A}return s},
@@ -134493,7 +134493,7 @@ if(r)r=o
 else{r=k.gaWe()
 r=A.el(A.T(A.H("Resend",A.O(a),B.f),o,o,o,o,o,o),o,o,r,o,o)}p=t.p
 r=A.b([A.fe(A.iS(!1,o,o,o,!0,o,o,o,!0,o,B.Zs,o,o,o,o,o,!1,o,o,o,o,q,o,s,o,r,o),o,o,o),B.ag,new A.ahU(l,j,o),B.ag],p)
-if(!l.pd(j)||l.c!==B.j8){s=l.pd(j)?"Renew or change plan":"Upgrade to Premium"
+if(!l.pd(j)||l.c!==B.j7){s=l.pd(j)?"Renew or change plan":"Upgrade to Premium"
 r.push(A.a24(B.x3,A.T(A.H(s,A.O(a),B.f),o,o,o,o,o,o),new A.ap_(a)))}if(i){s=A.yE(o,o,o,o,o,o,o,o,o,o,o,B.dc,o,o,o,o,o,o,o,o)
 B.c.R(r,A.b([B.ag,A.a6P(B.Zk,A.T(A.H("Admin dashboard",A.O(a),B.f),o,o,o,o,o,o),new A.ap0(a),s)],p))}r.push(B.ew)
 s=A.yE(o,o,o,o,o,o,o,o,o,o,o,B.dc,o,o,o,o,o,o,o,o)
@@ -134541,8 +134541,8 @@ h.toString
 p=A.a2(["plan",k,"date",A.bsx(h)],q,p)
 p=A.H("Your {plan} plan ended on {date}.",A.O(a),p)
 k=p
-break A}if(B.j8===k){k=A.H("Premium forever.",A.O(a),B.f)
-break A}if(B.mi===k||B.j7===k){h.toString
+break A}if(B.j7===k){k=A.H("Premium forever.",A.O(a),B.f)
+break A}if(B.mi===k||B.j8===k){h.toString
 k=A.a2(["date",A.bsx(h)],q,p)
 k=A.H("Premium until {date}.",A.O(a),k)
 break A}if(B.dB===k){k=A.a2(["left",g,"total",3],q,p)
@@ -134601,7 +134601,7 @@ if(a3.length===0)s=a6
 else{a=b.jY(a6,new A.aV8(a3))
 s=A.Q(a,a.$ti.i("u.E"))}r=new A.aVd(a5,a4)
 a=t.p
-a=A.b([A.dB(A.b([r.$2("Users",""+b.gu(a6)),r.$2("Premium now",""+a0.length),r.$2("Active today",""+a2)],a),B.T,B.C,B.O,0),A.dB(A.b([r.$2("Monthly",A.m(a1.$1(B.mi))),r.$2("Yearly",A.m(a1.$1(B.j7))),r.$2("Lifetime",A.m(a1.$1(B.j8)))],a),B.T,B.C,B.O,0),B.b2,A.aSd(c,B.cg,!1,c,!0,B.N,c,A.bi5(),c,c,c,c,c,c,2,A.MO(c,B.j2,c,c,c,c,c,c,!0,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,A.H("Search by email",A.O(a4),B.f),c,!0,!0,!1,c,B.Ze,c,c,c,c,c,c,c,c,c,c,c,c),B.aF,!0,c,!0,c,!1,c,B.dQ,c,c,c,c,c,c,c,c,1,c,c,!1,"\u2022",c,new A.aV9(this),c,c,c,!1,c,c,!1,c,!0,c,B.fV,c,c,c,c,c,c,c,c,c,c,c,c,!0,B.b4,c,B.t5,c,c,c,c),B.b2],a)
+a=A.b([A.dB(A.b([r.$2("Users",""+b.gu(a6)),r.$2("Premium now",""+a0.length),r.$2("Active today",""+a2)],a),B.T,B.C,B.O,0),A.dB(A.b([r.$2("Monthly",A.m(a1.$1(B.mi))),r.$2("Yearly",A.m(a1.$1(B.j8))),r.$2("Lifetime",A.m(a1.$1(B.j7)))],a),B.T,B.C,B.O,0),B.b2,A.aSd(c,B.cg,!1,c,!0,B.N,c,A.bi5(),c,c,c,c,c,c,2,A.MO(c,B.j2,c,c,c,c,c,c,!0,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,A.H("Search by email",A.O(a4),B.f),c,!0,!0,!1,c,B.Ze,c,c,c,c,c,c,c,c,c,c,c,c),B.aF,!0,c,!0,c,!1,c,B.dQ,c,c,c,c,c,c,c,c,1,c,c,!1,"\u2022",c,new A.aV9(this),c,c,c,!1,c,c,!1,c,!0,c,B.fV,c,c,c,c,c,c,c,c,c,c,c,c,!0,B.b4,c,B.t5,c,c,c,c),B.b2],a)
 b=J.ak(s)
 if(b.gZ(s))a.push(new A.bv(B.e7,A.T(A.H("No users yet.",A.O(a4),B.f),c,c,c,c,B.bQ,c),c))
 for(b=b.gT(s),q=t.N,p=t.X,o=t.Gk,n=t.s,m=a5.ax.b;b.t();){l=b.gM()
@@ -134633,7 +134633,7 @@ f=d==null?f:d}i.push(A.H("{count} today",f==null?"en":f,g))
 a.push(A.fe(A.iS(!1,c,c,c,!0,c,c,c,!0,c,k,c,c,c,c,new A.aVa(this,l),!1,c,c,c,c,A.T(B.c.aX(i," \xb7 "),c,c,c,c,c,c),c,j,c,B.Zv,c),c,c,c))}return A.ou(a,c,B.oU)}}
 A.aVf.prototype={
 $1(a){var s,r,q,p,o,n,m,l,k,j,i=null,h=A.b([new A.bv(B.Xq,A.T(this.a.b,i,i,i,A.S(a).ok.w,i,i),i)],t.p)
-for(s=t.Gk,r=t.N,q=t.X,p=0;p<4;++p){o=B.qa[p]
+for(s=t.Gk,r=t.N,q=t.X,p=0;p<4;++p){o=B.q9[p]
 n=o===B.dB
 m=A.ik(n?B.YM:B.pX,i,i,i)
 if(!n){l=a.ag(s)
@@ -134889,7 +134889,7 @@ if(n==null)p=g
 else{l=p.rx
 p=n.c0(l==null?p.k3:l)}q.push(A.T(o,g,g,g,p,g,g))
 q.push(B.dH)
-for(p=B.c.gT(B.qa),o=new A.nJ(p,new A.aTF());o.t();)q.push(new A.ahV(p.gM(),g))
+for(p=B.c.gT(B.q9),o=new A.nJ(p,new A.aTF());o.t();)q.push(new A.ahV(p.gM(),g))
 q.push(B.bF)
 p=A.T(A.H("How to pay",A.O(a),B.f),g,g,g,s.w,g,g)
 o=A.H(u.b_,A.O(a),B.f)
@@ -134921,9 +134921,9 @@ return A.p(null,r)}})
 return A.q($async$$0,r)},
 $S:4}
 A.ahV.prototype={
-O(a){var s,r=null,q=A.S(a),p=this.c,o=A.kF(20),n=p===B.j7?q.ax.b:B.B,m=q.ok,l=A.T(A.H(p.c,A.O(a),B.f),r,r,r,m.w,r,r)
+O(a){var s,r=null,q=A.S(a),p=this.c,o=A.kF(20),n=p===B.j8?q.ax.b:B.B,m=q.ok,l=A.T(A.H(p.c,A.O(a),B.f),r,r,r,m.w,r,r)
 A:{if(B.mi===p){s="Premium for 30 days"
-break A}if(B.j7===p){s="Premium for 365 days \xb7 best value"
+break A}if(B.j8===p){s="Premium for 365 days \xb7 best value"
 break A}s="Pay once, Premium forever"
 break A}s=A.T(A.H(s,A.O(a),B.f),r,r,r,r,r,r)
 m=m.r
@@ -135565,7 +135565,7 @@ um(a,b){return this.ajk(a,b)},
 ajk(a,b){var s=0,r=A.r(t.MU),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c
 var $async$um=A.n(function(a0,a1){if(a0===1){o.push(a1)
 s=p}for(;;)switch(s){case 0:e=A.bC(n).aE($.hI(),t.R)
-d=a.aWL("1.10.0",n.aAd(),b,"web")
+d=a.aWL("1.11.0",n.aAd(),b,"web")
 s=3
 return A.h(e.mi("Bool","feedback.done",!0),$async$um)
 case 3:n.sc5(!1)
@@ -146812,6 +146812,13 @@ B.yw=s(["\u091c\u0928\u0935\u0930\u0940","\u092b\u093c\u0930\u0935\u0930\u0940",
 B.a2J=s(["\u0441\u0442\u0443","\u043b\u044e\u0442","\u0441\u0430\u043a","\u043a\u0440\u0430","\u043c\u0430\u0439","\u0447\u044d\u0440","\u043b\u0456\u043f","\u0436\u043d\u0456","\u0432\u0435\u0440","\u043a\u0430\u0441","\u043b\u0456\u0441","\u0441\u043d\u0435"],t.s)
 B.ef=s(["j","f","m","a","m","j","j","a","s","o","n","d"],t.s)
 B.a2L=s(["1-\u056b\u0576 \u0565\u057c\u0561\u0574\u057d\u0575\u0561\u056f","2-\u0580\u0564 \u0565\u057c\u0561\u0574\u057d\u0575\u0561\u056f","3-\u0580\u0564 \u0565\u057c\u0561\u0574\u057d\u0575\u0561\u056f","4-\u0580\u0564 \u0565\u057c\u0561\u0574\u057d\u0575\u0561\u056f"],t.s)
+B.dB=new A.jr("Free",null,null,0,0,0,"free")
+B.WN=new A.aH(2592e9)
+B.mi=new A.jr("Monthly","$2.99",B.WN,2.99,109,1,"monthly")
+B.WP=new A.aH(31536e9)
+B.j8=new A.jr("Yearly","$24.99",B.WP,24.99,899,2,"yearly")
+B.j7=new A.jr("Lifetime","$39.99",null,39.99,1449,3,"lifetime")
+B.q9=s([B.dB,B.mi,B.j8,B.j7],A.a3("z<jr>"))
 B.yx=s(["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"],t.s)
 B.yy=s(["\u039a\u03c5\u03c1","\u0394\u03b5\u03c5","\u03a4\u03c1\u03af","\u03a4\u03b5\u03c4","\u03a0\u03ad\u03bc","\u03a0\u03b1\u03c1","\u03a3\u03ac\u03b2"],t.s)
 B.a2M=s(["\u041c\u042d\u04e8","\u041c\u042d"],t.s)
@@ -146939,13 +146946,6 @@ B.yW=s(["\u043d\u0434","\u043f\u043d","\u0430\u045e","\u0441\u0440","\u0447\u044
 B.h8=s(["s\xf8ndag","mandag","tirsdag","onsdag","torsdag","fredag","l\xf8rdag"],t.s)
 B.a3Y=s(["I \u0443\u043b\u0438\u0440\u0430\u043b","II \u0443\u043b\u0438\u0440\u0430\u043b","III \u0443\u043b\u0438\u0440\u0430\u043b","IV \u0443\u043b\u0438\u0440\u0430\u043b"],t.s)
 B.yX=s(["niedziela","poniedzia\u0142ek","wtorek","\u015broda","czwartek","pi\u0105tek","sobota"],t.s)
-B.dB=new A.jr("Free",null,null,0,0,0,"free")
-B.WN=new A.aH(2592e9)
-B.mi=new A.jr("Monthly","$4.99",B.WN,4.99,179,1,"monthly")
-B.WP=new A.aH(31536e9)
-B.j7=new A.jr("Yearly","$39.99",B.WP,39.99,1390,2,"yearly")
-B.j8=new A.jr("Lifetime","$49.99",null,49.99,1790,3,"lifetime")
-B.qa=s([B.dB,B.mi,B.j7,B.j8],A.a3("z<jr>"))
 B.yY=s(["janv.","f\xe9vr.","mars","avr.","mai","juin","juill.","ao\xfbt","sept.","oct.","nov.","d\xe9c."],t.s)
 B.a4_=s(["prie\u0161 Krist\u0173","po Kristaus"],t.s)
 B.l5=s(["a.\u202fm.","p.\u202fm."],t.s)
@@ -147620,13 +147620,13 @@ B.azY=new A.rs(B.PZ,B.PY)
 B.a9W=s([B.azW,B.azZ,B.azX,B.azY],A.a3("z<rs>"))
 B.Bl=s(["GN","FB","M\xc7","AB","MG","JN","JL","AG","ST","OC","NV","DS"],t.s)
 B.a9X=s(["H:mm:ss '\u0447'. zzzz","H:mm:ss '\u0447'. z","H:mm:ss","H:mm"],t.s)
-B.q9=s([8,0,8,0],t.t)
+B.qa=s([8,0,8,0],t.t)
 B.a2g=s([5,3,5,3],t.t)
 B.a12=s([3,5,3,5],t.t)
 B.xD=s([0,8,0,8],t.t)
 B.y9=s([4,4,4,4],t.t)
 B.a1K=s([4,4,0,0],t.t)
-B.Bm=s([B.q9,B.a2g,B.a12,B.xD,B.q9,B.y9,B.a1K,B.xD],t.q)
+B.Bm=s([B.qa,B.a2g,B.a12,B.xD,B.qa,B.y9,B.a1K,B.xD],t.q)
 B.Bn=s(["Z","M","D","W","D","V","Z"],t.s)
 B.a9Y=s(["1. kvt.","2. kvt.","3. kvt.","4. kvt."],t.s)
 B.a9Z=s(["\u0399\u03b1\u03bd\u03bf\u03c5\u03b1\u03c1\u03af\u03bf\u03c5","\u03a6\u03b5\u03b2\u03c1\u03bf\u03c5\u03b1\u03c1\u03af\u03bf\u03c5","\u039c\u03b1\u03c1\u03c4\u03af\u03bf\u03c5","\u0391\u03c0\u03c1\u03b9\u03bb\u03af\u03bf\u03c5","\u039c\u03b1\u0390\u03bf\u03c5","\u0399\u03bf\u03c5\u03bd\u03af\u03bf\u03c5","\u0399\u03bf\u03c5\u03bb\u03af\u03bf\u03c5","\u0391\u03c5\u03b3\u03bf\u03cd\u03c3\u03c4\u03bf\u03c5","\u03a3\u03b5\u03c0\u03c4\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5","\u039f\u03ba\u03c4\u03c9\u03b2\u03c1\u03af\u03bf\u03c5","\u039d\u03bf\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5","\u0394\u03b5\u03ba\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5"],t.s)
@@ -148338,7 +148338,7 @@ B.a2z=s([6,6,2,2],t.t)
 B.a13=s([3,9,1,3],t.t)
 B.a0i=s([12,0,4,0],t.t)
 B.a3p=s([9,3,3,1],t.t)
-B.bL=s([B.y9,B.a0M,B.q9,B.a2y,B.a0K,B.a0x,B.a1H,B.a1_,B.a37,B.a1I,B.a0o,B.a0j,B.a2z,B.a13,B.a0i,B.a3p],t.q)
+B.bL=s([B.y9,B.a0M,B.qa,B.a2y,B.a0K,B.a0x,B.a1H,B.a1_,B.a37,B.a1I,B.a0o,B.a0j,B.a2z,B.a13,B.a0i,B.a3p],t.q)
 B.E0=s(["jan.","feb.","mar.","apr.","ma\xed","j\xfan.","j\xfal.","\xe1g\xfa.","sep.","okt.","n\xf3v.","des."],t.s)
 B.hj=s([0,-128,64,-64,32,-96,96,-32,16,-112,80,-48,48,-80,112,-16,8,-120,72,-56,40,-88,104,-24,24,-104,88,-40,56,-72,120,-8,4,-124,68,-60,36,-92,100,-28,20,-108,84,-44,52,-76,116,-12,12,-116,76,-52,44,-84,108,-20,28,-100,92,-36,60,-68,124,-4,2,-126,66,-62,34,-94,98,-30,18,-110,82,-46,50,-78,114,-14,10,-118,74,-54,42,-86,106,-22,26,-102,90,-38,58,-70,122,-6,6,-122,70,-58,38,-90,102,-26,22,-106,86,-42,54,-74,118,-10,14,-114,78,-50,46,-82,110,-18,30,-98,94,-34,62,-66,126,-2,1,-127,65,-63,33,-95,97,-31,17,-111,81,-47,49,-79,113,-15,9,-119,73,-55,41,-87,105,-23,25,-103,89,-39,57,-71,121,-7,5,-123,69,-59,37,-91,101,-27,21,-107,85,-43,53,-75,117,-11,13,-115,77,-51,45,-83,109,-19,29,-99,93,-35,61,-67,125,-3,3,-125,67,-61,35,-93,99,-29,19,-109,83,-45,51,-77,115,-13,11,-117,75,-53,43,-85,107,-21,27,-101,91,-37,59,-69,123,-5,7,-121,71,-57,39,-89,103,-25,23,-105,87,-41,55,-73,119,-9,15,-113,79,-49,47,-81,111,-17,31,-97,95,-33,63,-65,127,-1],t.t)
 B.afZ=new A.ow("und",null,null)
